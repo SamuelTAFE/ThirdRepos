@@ -46,4 +46,7 @@ namespace Ticketing
             lblAmount.Text = System.Convert.ToString(mTicketPrice.AmountDue);
         }
      }
+
+    // In this branch, need to alter code for discount. A checkbox for child needs to be added, the user needs to be forced to choose either 0 or 1 checkboxes only.
+    // Discount back-end calculation then needs to be swapped from bool calculation (from 2 options on/off, to 3 options - off, or senior/student, or child)
 }
